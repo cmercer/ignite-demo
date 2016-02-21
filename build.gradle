@@ -55,7 +55,6 @@ dependencies {
     compile "ch.qos.logback:logback-classic:${logbackVersion}"
     compile "org.slf4j:slf4j-api:${slf4jVersion}"
 
-
     testCompile "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
     testCompile "junit:junit:${junitVersion}"
     testCompile "org.assertj:assertj-core:${assert4jVersion}"
