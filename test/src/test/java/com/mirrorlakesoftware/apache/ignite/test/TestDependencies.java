@@ -1,7 +1,5 @@
 package com.mirrorlakesoftware.apache.ignite.test;
 
-import com.sun.org.apache.xpath.internal.operations.String;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -30,5 +28,6 @@ public class TestDependencies {
   public void testSlf4J() {
     assertThat(log).isNotNull();
     assertThat(log.isErrorEnabled()).isTrue();
+    log.info("test");
   }
 }
